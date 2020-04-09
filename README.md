@@ -7,7 +7,18 @@ Installation is as close as possible to official Gitea doccumentation recommenda
 
 For any installation script you will need bash_script_library.sh also, because it has some helpfull piece of code I use. 
 
-1. SQLite
+1. SQLite - install_gitea_sqlite_download_gitea.sh
+- tries to download gitea from their website
+- this option expects to setup demanded gitea version inside of setup_gitea_demanded_version.sh script
+- finish install through web interface (http://ip_of_yur_gitea:3000/install) and choose SQLite as your database for Gitea
+
+2. SQLite - install_gitea_sqlite_homedir_gitea.sh
+- I experienced many times very slow response from Gitea web during download and many times downloads even restarting several times. 
+So I made another script which expects having Gitea downloaded in advance
+- rename which ever binary version of Gitea downloaded in advance and copy it in your home directory root
+- finish install through web interface (http://ip_of_yur_gitea:3000/install) and choose SQLite as your database for Gitea
+
+   
 
 
 
