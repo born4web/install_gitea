@@ -5,7 +5,9 @@ Gitea can run on different kind of databases so choose the right script accordin
 
 Installation is as close as possible to official Gitea doccumentation recommendations (directory locations, permissions, ownerships,...).
 
-For any installation script you will need bash_script_library.sh also, because it has some helpfull piece of code I use. 
+For any installation script you will need bash_script_library.sh also, because it has some helpfull piece of code I use.
+
+Best way to use it is to git clone this repository inside your home directory and then make choosen script executable and run installation... 
 
 1. SQLite - install_gitea_sqlite_download_gitea.sh
 - tries to download gitea from their website
